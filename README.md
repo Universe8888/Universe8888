@@ -2,6 +2,11 @@
 
 Hello there! I'm Boris, a meticulous and analytical individual with experience in logistics coordination and freight forwarding, currently expanding my skills into the tech world by learning JavaScript at SoftUni.
 
+<a href="https://www.linkedin.com/in/boris-manzov-47775623a">
+  <img align="left" alt="Boris's LinkedIn" width="22px" src="https://github.com/dheereshagrwal/colored-icons/raw/master/svg/linkedin.svg" />
+</a>
+<br>
+
 ## About Me
 
 Boris - passionate about logistics and coding, and residing in the vibrant city of Sofia, Bulgaria. My journey into the world of logistics was an unexpected adventure, catalyzed by connections and friendships, while my intrigue toward coding has been a lingering flame since my IT-focused middle school days. 

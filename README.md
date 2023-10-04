@@ -46,10 +46,20 @@ Outside of my professional sphere, I find joy in driving, working out, gaming, a
 ## Interests
 
 - Coding
-- Car Driving
+- Driving
 - Working Out (Street Fitness)
 - Gaming
 - Traveling
+
+## Technologies
+
+<img align="left" alt="javascript" width="40px" src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" />
+<img align="left" alt="nodejs" width="40px" src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg" />
+<img align="left" alt="html" width="40px" src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" />
+<img align="left" alt="css" width="40px" src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" />
+<img align="left" alt="git" width="40px" src="https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg" />
+<img align="left" alt="github" width="40px" src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg" />
+<br><br><br><br>
 
 ---
 

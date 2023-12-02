@@ -3,7 +3,7 @@
 Hello there! I'm Boris, a meticulous and analytical individual with experience in logistics coordination and freight forwarding, currently expanding my skills into the tech world by learning JavaScript at SoftUni.
 
 <a href="https://www.linkedin.com/in/boris-manzov-47775623a">
-  <img align="left" alt="Boris's LinkedIn" width="22px" src="https://github.com/dheereshagrwal/colored-icons/blob/master/icons/linkedin/linkedin.svg"/>
+  <img align="left" alt="Boris's LinkedIn" width="22px" src="https://github.com/dheereshagrwal/colored-icons/blob/master/public/icons/linkedin/linkedin.svg"/>
 </a>
 <br>
 

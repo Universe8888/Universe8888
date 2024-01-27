@@ -28,6 +28,7 @@ Outside of my professional sphere, I find joy in driving, working out, gaming, a
 ### Courses and Certificates
 - Microsoft Excel Fundamentals and Microsoft Excel Advanced Certificate by Software University.
 - Programming Basics with JavaScript by Software University.
+- Programming Fundamentals with JavaScript by Software University.
 
 ## Education
 

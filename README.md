@@ -22,6 +22,7 @@ Outside of my professional sphere, I find joy in driving, working out, gaming, a
 - **Microsoft Dynamics**: Proficient in supply chain management and inventory control.
 - **ORACLE ERP**: Experienced in deploying ORACLE ERP for logistics and distribution processes.
 - **ServiceNow**: Proficient in managing tasks and creating analytical tools on the ServiceNow platform.
+- **JustAsk**: Proficient in managinging tasks and assets managing, creating reports.
 - **JavaScript**: Experience in creating user-friendly interfaces for internal logistics software.
 - **Adobe Photoshop**: Proficient in preparing visuals for presentations and reports.
 
@@ -29,6 +30,7 @@ Outside of my professional sphere, I find joy in driving, working out, gaming, a
 - Microsoft Excel Fundamentals and Microsoft Excel Advanced Certificate by Software University.
 - Programming Basics with JavaScript by Software University.
 - Programming Fundamentals with JavaScript by Software University.
+- Programming Advanced with JavaScript by Software University.
 
 ## Education
 

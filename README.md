@@ -1,6 +1,6 @@
 # Boris Aleksandrov Manzov
 
-Hello there! I'm Boris, a meticulous and analytical individual with experience in logistics coordination and freight forwarding, currently expanding my skills into the tech world by learning at SoftUni.
+Hello there! I'm Boris, a meticulous and analytical individual with experience in logistics coordination and freight forwarding, currently expanding my skills into the tech world by learning at SoftUni or on my own.
 
 <a href="https://www.linkedin.com/in/boris-manzov-47775623a">
   <img align="left" alt="Boris's LinkedIn" width="22px" src="https://github.com/dheereshagrwal/colored-icons/blob/master/public/icons/linkedin/linkedin.svg"/>
@@ -24,6 +24,7 @@ Outside of my professional sphere, I find joy in driving, working out, gaming, a
 - **ServiceNow**: Proficient in managing tasks and creating analytical tools on the ServiceNow platform.
 - **JustAsk**: Proficient in managing tasks and assets managing, creating reports.
 - **JavaScript**: Experience in creating user-friendly interfaces for internal logistics software.
+- **Python**: Oriented around creating and implementing Data Science workflows.
 - **Adobe Photoshop**: Proficient in preparing visuals for presentations and reports.
 
 ### Courses and Certificates
@@ -31,6 +32,7 @@ Outside of my professional sphere, I find joy in driving, working out, gaming, a
 - Programming Basics with JavaScript by Software University.
 - Programming Fundamentals with JavaScript by Software University.
 - Programming Advanced with JavaScript by Software University.
+- Self learning Python over PluralSight / Udemy
 
 ## Education
 

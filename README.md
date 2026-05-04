@@ -174,16 +174,16 @@ Automated scraper for LinkedIn & Jobs.bg with NLP-driven resume comparison and s
 ## 📊 GitHub Stats
 
 <div align="center">
-  <!-- GitHub Stats -->
-  <img src="https://github-readme-stats-git-master-anuraghazra.vercel.app/api?username=Universe8888&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff" alt="GitHub Stats" height="165" />
+  <!-- GitHub Stats (Using a more stable community endpoint) -->
+  <img src="https://github-readme-stats-tau-six.vercel.app/api?username=Universe8888&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff" alt="GitHub Stats" height="165" />
   
-  <!-- GitHub Streak (This service is usually independent and may still work, but keep it aligned) -->
+  <!-- GitHub Streak -->
   <img src="https://github-readme-streak-stats.demolab.com?user=Universe8888&theme=tokyonight&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="GitHub Streak" height="165" />
 </div>
 
 <div align="center">
-  <!-- Top Languages -->
-  <img src="https://github-readme-stats-git-master-anuraghazra.vercel.app/api/top-langs/?username=Universe8888&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Languages" height="130" />
+  <!-- Top Languages (Using the alternative endpoint) -->
+  <img src="https://github-readme-stats-tau-six.vercel.app/api/top-langs/?username=Universe8888&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Languages" height="130" />
 </div>
 
 ---

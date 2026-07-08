@@ -1,0 +1,20 @@
+repos:
+  - repo: local
+    hooks:
+      - id: ruff-tests
+        name: ruff profile tests
+        entry: python -m ruff check tests/
+        language: system
+        pass_filenames: false
+
+      - id: profile-readme-tests
+        name: profile README tests
+        entry: python -m pytest tests/ -q
+        language: system
+        pass_filenames: false
+
+      - id: gitleaks-staged
+        name: gitleaks staged scan
+        entry: gitleaks git --staged --redact --no-banner
+        language: system
+        pass_filenames: false

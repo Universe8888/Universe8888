@@ -32,7 +32,7 @@
 
 ### [wikilens](https://github.com/Universe8888/wikilens) &nbsp;·&nbsp; `pip install wikilens`
 
-**8 evaluated agents. One command. Any Markdown vault.**
+**8 shipped agents. Six hand-labeled evals. One Markdown vault.**
 
 *Turns a folder of notes into a queryable, auditable, self-aware knowledge system.*
 
@@ -47,18 +47,18 @@
 <tr>
 <td width="50%" valign="top">
 
-**8 agents, each with published benchmarks:**
+**8 agents, with honest per-run benchmark status:**
 
-| Agent | What it finds | Best score |
+| Agent | What it finds | Measured status |
 |-------|--------------|-----------|
 | `audit` | Broken wikilinks, orphans, shadowed basenames | **F1 = 1.00** |
-| `query` | Semantic search · dense + BM25 + RRF + rerank | **Hit@5 = 1.00** |
-| `gap` | Unanswered questions implied by vault content | **Recall = 1.00** |
-| `confidence` | Claims below epistemic threshold (5-level scale) | **F1 = 0.89** |
+| `query` | Semantic search · dense + BM25 + RRF + rerank | **Hit@5 = 1.00; Recall@5 0.97-1.00** |
+| `gap` | Unanswered questions implied by vault content | **Cluster recall = 1.00; matcher precision 0.19-0.48** |
+| `confidence` | Claims below epistemic threshold (5-level scale) | **F1 0.66-0.89** |
 | `contradict` | Conflicting claim pairs across notes | F1 = 0.82 |
-| `answer` | Drafts cited stub notes for identified gaps | Pass = 0.80 |
-| `drift` | Beliefs that shifted over git history | P ≥ 0.80 target |
-| `concepts` | Notes circling an unnamed concept | F1 ≥ 0.70 target |
+| `answer` | Drafts cited stub notes for identified gaps | Pass 0.40-0.80; attribution 0.90-1.00 |
+| `drift` | Beliefs that shifted over git history | Harness + targets; not yet benchmarked |
+| `concepts` | Notes circling an unnamed concept | Harness + target; not yet benchmarked |
 
 </td>
 <td width="50%" valign="top">
@@ -66,11 +66,11 @@
 **Why it's different:**
 
 - 🏠 **Local-first** — notes never leave your machine unless you opt into a remote LLM
-- 📊 **Evaluated, not vibes** — every agent ships with hand-labeled fixtures and a published F1/recall score
+- 📊 **Evaluated, not vibes** — six agents have hand-labeled evals; `drift` and `concepts` have harnesses + targets pending published runs
 - 🔀 **No vendor lock** — swappable embeddings (BAAI/bge), vector stores (LanceDB/Chroma), LLM backends (OpenAI / Claude)
 - 🔍 **Hybrid retrieval** — dense + BM25 + RRF fusion + cross-encoder reranking; Hit@5 = 1.00 in every mode
 - 🚦 **CI-gate ready** — `audit` exits 0/1/2, drop it straight into pre-commit or GitHub Actions
-- 📝 **Proof-carrying answers** — every drafted note stub carries `[^N]` citations resolving to vault chunk IDs; attribution rate = 1.00
+- 📝 **Proof-carrying answers** — every drafted note stub carries `[^N]` citations resolving to vault chunk IDs; attribution rate = 0.90-1.00
 
 ```bash
 pip install wikilens
@@ -86,6 +86,20 @@ wikilens query "what did I conclude about X"
 ---
 
 ## 🔬 Other Projects
+
+### [mcp-govcheck](https://github.com/Universe8888/mcp-govcheck)
+**Design-time governance scorecard for MCP servers.**
+
+A lightweight scanner for MCP server designs that checks permission boundaries, tool exposure, data handling, and governance readiness before deployment.
+
+`Python` `AI Governance` `MCP` `Security Review` `Policy-as-Code`
+
+- 🛡️ Flags risky tool surfaces before they become production integrations
+- 🧪 Evaluation-backed: 13/13 scan accuracy cases and 5/5 safety properties
+- 📋 Produces reviewable findings for architecture, risk, and implementation teams
+
+[![Stars](https://img.shields.io/github/stars/Universe8888/mcp-govcheck?style=flat-square&labelColor=1F2937)](https://github.com/Universe8888/mcp-govcheck)
+[![Issues](https://img.shields.io/github/issues/Universe8888/mcp-govcheck?style=flat-square&labelColor=1F2937)](https://github.com/Universe8888/mcp-govcheck/issues)
 
 <table>
 <tr>
@@ -137,7 +151,7 @@ Automated scraper for LinkedIn & Jobs.bg with NLP-driven resume comparison and s
 #### Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/T--SQL-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
+![T-SQL](https://img.shields.io/badge/T--SQL-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
